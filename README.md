@@ -18,10 +18,10 @@ Using Alchemy’s Enhanced APIs
 * Displays NFT images along with their information in a vertical scroll interface (allowing users to easily view different NFTs’ attributes) 
 
 #### Implementing this component:
-To implement this component, create a Web3 Dapp by running the following command in your terminal: ```npx create-web3-dapp@latest```
+(Method 1) To implement this component, create a Web3 Dapp by running the following command in your terminal: ```npx create-web3-dapp@latest```
 After creation, navigate to the components folder and add the “NFTRarityComponent.jsx” file. Add the “getNftRarity.js” file to the pages/api/ directory and add the “NftRarity.module.css” file to the styles folder. Make sure to call the NFT Rarity Component in the index.jsx file.
 
-To implement this component (similar to the templates available on createweb3dapp.com), copy the code from the “NFTRarityComponent.jsx” (which corresponds to the “code” tab under templates) into your component file. Copy the code from the “getNftRarity.js” (which corresponds to the “API” tab) and copy the style code from “NftRarity.module.css” (which corresponds to the “Styles” tab).
+(Method 2) To implement this component (similar to the templates available on createweb3dapp.com), copy the code from the “NFTRarityComponent.jsx” (which corresponds to the “code” tab under templates) into your component file. Copy the code from the “getNftRarity.js” (which corresponds to the “API” tab) and copy the style code from “NftRarity.module.css” (which corresponds to the “Styles” tab).
 
 * If directly cloning the repository, make sure to insert your Alchemy API Key under the .env.local file (after ```ALCHEMY_API_KEY=```)
 
